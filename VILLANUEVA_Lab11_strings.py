@@ -5,8 +5,8 @@ for x in range(10):
     word = input("Enter word: ")
     wordList.append(word)
 
-letterCount = int(input("Enter a number between 1-10: "))
 print()
+letterCount = int(input("Enter a number between 1-10: "))
 
 if letterCount <= 0 or letterCount >= 11:
     print("Invalid input. Please enter a number between 1-10.")
